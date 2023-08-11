@@ -5,15 +5,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class Raymond {
+public class CottonKing {
   @Test
-  public void RaymondTest() throws InterruptedException 
+  public void CottonKingTest() throws InterruptedException 
   {
 	  WebDriver driver = new ChromeDriver ();
-		 Reporter.log("opening Raymond", true);
-		 driver.get("https://www.raymond.in/");
+		 Reporter.log("opening CottonKing", true);
+		 driver.get("https://www.cottonking.com/");
 		 Thread.sleep(5000);
 		 driver.close();
   }
 }
-                                                                      
