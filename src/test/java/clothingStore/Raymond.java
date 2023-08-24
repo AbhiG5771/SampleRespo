@@ -9,7 +9,8 @@ public class Raymond {
   @Test
   public void RaymondTest() throws InterruptedException 
   {
-	  WebDriver driver = new ChromeDriver ();
+	  System.setProperty("webdriver.chrome.driver","F:\\Browesrs Data and selelium app down\\chromedriver-win64\\chromedriver.exe" );
+	  WebDriver driver = new ChromeDriver();
 		 Reporter.log("opening Raymond", true);
 		 driver.get("https://www.raymond.in/");
 		 Thread.sleep(5000);

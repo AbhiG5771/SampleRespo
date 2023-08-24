@@ -9,7 +9,8 @@ public class CottonKing {
   @Test
   public void CottonKingTest() throws InterruptedException 
   {
-	  WebDriver driver = new ChromeDriver ();
+	   System.setProperty("webdriver.chrome.driver","F:\\Browesrs Data and selelium app down\\chromedriver-win64\\chromedriver.exe" );
+	   WebDriver driver = new ChromeDriver();
 		 Reporter.log("opening CottonKing", true);
 		 driver.get("https://www.cottonking.com/");
 		 Thread.sleep(5000);
